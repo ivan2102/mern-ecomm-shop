@@ -53,45 +53,6 @@ function PaymentPage({ history }) {
                    </FormCheck>
                </Col>
 
-               <Col>
-               <FormCheck
-                type="radio"
-                 label="Debit Card" 
-                 id="DebitCart"
-                  name="paymentMethod"
-                   value="DebitCard"
-                    checked 
-                    onChange={event => setPaymentMethod(event.target.value)}
-                    >     
-                    </FormCheck>
-               </Col>
-
-               <Col>
-               <FormCheck
-                type="radio"
-                 label="Cash" 
-                 id="Cash"
-                  name="paymentMethod"
-                   value="Cash"
-                    checked 
-                    onChange={event => setPaymentMethod(event.target.value)}
-                    >     
-                    </FormCheck>
-               </Col>
-
-               <Col>
-               <FormCheck
-                type="radio"
-                 label="Mobile Payments" 
-                 id="MobilePayments"
-                  name="paymentMethod"
-                   value="MobilePayments"
-                    checked 
-                    onChange={event => setPaymentMethod(event.target.value)}
-                    >     
-                    </FormCheck>
-               </Col>
-
                <Button type="submit" className="btn-block button my-3">Pay</Button>
 
                </FormGroup>
