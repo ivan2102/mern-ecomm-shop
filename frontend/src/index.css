@@ -67,6 +67,11 @@ div a {
   color: red;
 }
 
+.nav {
+
+  margin-right: 1.5rem;
+}
+
 /* carousel */
 .carousel-item-next,
 .carousel-item-prev,
@@ -87,6 +92,8 @@ div a {
 
   color: #fff;
 }
+
+
 
 .carousel-img {
 

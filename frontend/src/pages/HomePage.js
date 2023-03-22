@@ -34,10 +34,10 @@ const HomePage = ({ match }) => {
 
     return (
         <>
+         
+        <Meta />
 
-          <Meta />
-
-           { !keyword ? <ProductCarousel /> :  <Link to='/' className='btn btn-light'>Go Home</Link>}
+       { !keyword ? <ProductCarousel /> :  <Link to='/' className='btn btn-light'>Go Home</Link>}
        
            <h1>Featured Products</h1> 
 
